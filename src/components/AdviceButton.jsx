@@ -1,4 +1,4 @@
-import { FaSpider } from 'react-icons/fa';
+import icon from '../assets/icon-dice.svg';
 import AdviceContext from './context/AdviceContext';
 import { useContext } from 'react';
 
@@ -10,7 +10,7 @@ function AdviceButton() {
 	return (
 		<div className="btn">
 			<button type="submit" onClick={handleSubmit}>
-				<FaSpider size={30} />
+				<img src={icon} alt="Icon" />
 			</button>
 		</div>
 	);

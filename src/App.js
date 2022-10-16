@@ -6,7 +6,7 @@ function App() {
 	return (
 		<AdviceProvider>
 			<div className="container">
-				<Header />
+				{/* <Header /> */}
 				<AdviceCard />
 			</div>
 		</AdviceProvider>
